@@ -32,8 +32,7 @@ const plumber       = require('gulp-plumber');
 /* --------------------------------------------------------------------------- */
 const files = { 
     scssPath: 'src/scss/**/*.scss',
-    jsPath: 'src/js/**/*.js',
-    jsES5Path: 'src/jsES5/**/*.js'
+    jsPath: 'src/js/**/*.js'
 }
 
 
