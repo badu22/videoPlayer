@@ -8,6 +8,11 @@
 npm install
 ```
 
+## Compile app
+```
+gulp
+```
+
 ## Serve app
 Recomend using npm package http-server: a command-line http server
 ```
