@@ -82,7 +82,7 @@ function jsTask() {
 function cacheBustTask(){
     var cbString = new Date().getTime();
     return src(['index.html'])
-        .pipe(replace(/cb=\d+/g, 'cb=' + cbString))
+        .pipe(replace(/v=\d+/g, 'v=' + cbString))
         .pipe(dest('.'));
 }
 
